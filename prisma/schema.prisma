@@ -22,7 +22,7 @@ model Users {
   lastName String?
 
   bookmarks Bookmark[]
-  
+
   @@map("users")
 }
 
